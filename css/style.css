@@ -1,0 +1,52 @@
+#home {
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.655) 0% 100%) , url('../images/photo-1484807352052-23338990c6c6.avif');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.homeheader {
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 70px;
+
+}
+.homeheader::after {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    content: '';
+    width: 250px;
+    height: 15px;
+    background-color: rgb(255, 0, 102);
+}
+.head {
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.head::after {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    content: '';
+    width: 400px;
+    height: 5px;
+    background-color: rgb(255, 0, 102);
+}
+
+
+.form-control {
+    background-color:transparent;
+    border: none;
+    color: white;
+}
+.btn {
+    background-color: rgb(255, 0, 102) ;
+    border: none;
+}
